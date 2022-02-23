@@ -33,6 +33,7 @@ app.get('/api/team/staff',(req, res) => {
 
 app.post('/api/register',(req,res) => {
 
+    // const response = registrationService.Register(req);
     res.send({
         msg: 'Registered'
     });
