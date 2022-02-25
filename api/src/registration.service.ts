@@ -1,9 +1,9 @@
 import { Registration, PlayerSignup, PurchaseSignup } from "../lib/api-interfaces";
 
 export class RegistrationService {
-    createRegistration(){
+    createRegistration(registration: Registration){
         // store registration
-
+        console.log(registration);
         // handle error?
     }
 }

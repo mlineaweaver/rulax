@@ -1,0 +1,21 @@
+.lax-viewer {
+    width: 530px;
+    position: relative;
+  
+    .lax {
+      width: 530px;
+      height: 342px;
+      position: absolute;
+      z-index: 1;
+  
+      &__image {
+        background-size: contain;
+        width: 500px;
+        height: 342px;
+        position: absolute;
+        z-index: 1;
+        top: 30px;
+        left: 30px;
+      }
+    }
+  }

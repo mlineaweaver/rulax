@@ -7,6 +7,7 @@ export interface Person {
     // id: string; will add back when we start using the database
     name: string;
     hometown: string;
+    headshotUrl: string;
 }
 
 export interface Players extends Person {
@@ -44,4 +45,8 @@ export interface PurchaseSignup {
     gatorade: boolean;
     chips: boolean;
     candy: boolean;
+}
+
+export interface JoshTest {
+    title: string;
 }

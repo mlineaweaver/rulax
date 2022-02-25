@@ -1,0 +1,13 @@
+<div class = 'staff'>
+    <h3> The Coaches: </h3>
+    <div class="staff-summary" *ngFor="let staff of staff$ | async">
+        <img src= {{staff.headshotUrl}} /><h5>{{staff.name}} </h5>
+        <div class="staff-info">
+            <span>Home town: {{staff.hometown}}</span>
+            <span> {{staff.title}}</span>
+            <p> {{staff.college}}</p>    
+        </div>
+        <p> {{staff.bio}}</p>
+
+    </div>
+</div>
