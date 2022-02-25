@@ -1,0 +1,12 @@
+<div class = 'players'>
+    <div class="player-summary" *ngFor="let player of player$ | async">
+        <img src= {{player.headshotUrl}} /><h5>{{player.name}} </h5>
+        <div class="staff-info">
+            <span>Home town: {{player.hometown}}</span>
+            <span> {{player.gradYear}}</span>
+            <p> {{player.position}}</p>    
+        </div>
+        <p> {{player.number}}</p>
+
+    </div>
+</div>

@@ -1,7 +1,6 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { HomeComponent } from "src/app/home/home.component";
-import { LaxAppComponent } from "src/app/lax-app/lax-app.component";
 
 // app-routing.module.ts
 const routes: Routes = [
@@ -10,8 +9,8 @@ const routes: Routes = [
       component: HomeComponent,
     },
     {
-      path: 'pizzas',
-      component: LaxAppComponent,
+      path: 'registration',
+      component: RegistrationComponent,
     },
   ];
   
