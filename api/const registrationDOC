@@ -1,0 +1,7 @@
+const registrationDOC = {
+    _id: 'ksadhoie'
+    name: 'name'
+    age: number
+    experience: number
+    
+}
