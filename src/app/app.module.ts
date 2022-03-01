@@ -9,7 +9,7 @@ import { PlayerComponent } from './home/components/player/player.component';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './shared/components/nav-bar.component';
 import { HttpClientModule } from '@angular/common/http';
-
+import { PlayerFormComponent } from './registration/components/player-form/player-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     InformationComponent,
     StaffComponent,
-    PlayerComponent
+    PlayerComponent,
+    PlayerFormComponent
   ],
   imports: [
     BrowserModule, AppRoutingModule, HttpClientModule

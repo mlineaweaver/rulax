@@ -1,0 +1,6 @@
+<div class="form-group">
+    <label for="player">Player Sign-Up</label>
+    <select class="form-control" id="player" required>
+      <option *ngFor="let gradYear of gradYears" [value]="gradYear">{{gradYear}}</option>
+    </select>
+  </div>
