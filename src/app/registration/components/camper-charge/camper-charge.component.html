@@ -1,0 +1,42 @@
+<section>
+    <form [formGroup]="form" (ngSubmit)="submitForm()" novalidate>
+        <div class="form-group">
+            <label for="playerName">Player Name:</label>
+            <input id="playerName" formControlName="playerName" />
+            <br>
+            <label for="playerDOB">Player Date of Birth:</label>
+            <input type="date" id="playerDOB" formControlName="playerDOB" />
+            <br>
+            <label for="gradYear">Grad Year</label>
+            <select formControlName = "gradYear" class="form-control" id="gradYear" required>
+                <option *ngFor="let gradYear of gradYears" [value]="gradYear">{{gradYear}}</option>
+            </select>
+            <br>
+            <label for="parentName">Parent Name:</label>
+            <input id="parentName" formControlName="parentName" />
+            <br>
+            <label for="parentPhone">Parent Phone Number:</label>
+            <input id="parentPhone" formControlName="parentPhone" />
+            <br>
+            <label for="parentEmail">Parent Email: </label>
+            <input id="parentEmail" formControlName="parentEmail" />
+        </div>
+        <div class="form-group">
+        <div *ngFor="let charge of charges; let i=index">
+            <label>
+                {{charge.name}}
+                <input [required] type="checkbox" [value]="charge.value" (change)="onCheckboxChange($event)" />
+
+            </label>
+        </div>
+        
+    </div>
+    <p>Total Charges: {{total$ | async | currency: "USD"}}</p>
+    <div class = "button-wrapper">
+        <a class = "donate-button" href = "https://www.givecampus.com/campaigns/21516/donations/new" target="_blank">Donate Now!</a>
+   
+        <br>
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+</section>
