@@ -7,9 +7,9 @@ interface Charge {
     value: string;
 }
 @Component({
-    selector: 'app-camper-charge',
-    templateUrl: './camper-charge.component.html',
-    styleUrls: ['./camper-charge.component.scss']
+    selector: 'app-camper-details',
+    templateUrl: './camper-details.component.html',
+    styleUrls: ['./camper-details.component.scss']
 })
 export class CamperChargeComponent {
     form: FormGroup = this.fb.group({

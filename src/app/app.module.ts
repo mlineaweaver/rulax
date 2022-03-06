@@ -1,4 +1,4 @@
-import { CamperChargeComponent } from './registration/components/camper-charge/camper-charge.component';
+import { CamperChargeComponent } from './registration/components/camper-details/camper-details.component';
 import { InformationComponent } from './home/components/information/information.component';
 import { AppRoutingModule } from './../../app-routing.module';
 import { HomeComponent } from './home/home.component';
