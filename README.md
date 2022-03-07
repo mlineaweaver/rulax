@@ -1,15 +1,17 @@
 # Rulax Registration App
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+An app created to collect registrations for a summer camp in Angular 13
 
 ## Main Features
 
-- Feature 
-- Feature
+- Feature Register for Camp - this is a feature that allows the user to register their daughter for Regis Lacrosse Camp.
+- Feature About the Coaches - this feature allows the user to view who their child will be coached by and what the coach qualifications are.
+- Feature Donate to Regis Lacrosse - this is a feature that allows users to donate to the Regis Lacrosse Program.
+- Feature total currency - this is a feature that allows the users to see their total as they add things to their purchase checklist.
 
 ## Possible Enhancements
 - Adding user login/authentication
-- 
+- Adding a checkout function
+- Completing the ability to store checkout information.
 
 ## Instructions
 
