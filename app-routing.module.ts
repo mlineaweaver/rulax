@@ -1,6 +1,6 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { CheckoutComponent } from "src/app/checkout/checkout.component";
+// import { CheckoutComponent } from "src/app/checkout/checkout.component";
 import { HomeComponent } from "src/app/home/home.component";
 import { RegistrationComponent } from "src/app/registration/registration.component";
 
@@ -14,10 +14,10 @@ const routes: Routes = [
       path: 'register',
       component: RegistrationComponent,
     },
-    {
-      path: 'checkout',
-      component: CheckoutComponent,
-    },
+    // {
+    //   path: 'checkout',
+    //   component: CheckoutComponent,
+    // },
   ];
   
   @NgModule({
