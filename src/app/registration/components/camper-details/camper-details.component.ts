@@ -11,7 +11,7 @@ interface Charge {
     templateUrl: './camper-details.component.html',
     styleUrls: ['./camper-details.component.scss']
 })
-export class CamperChargeComponent {
+export class CamperInfoComponent {
     form: FormGroup = this.fb.group({
         selectedCharges: this.fb.array([]),
         playerName: [''],

@@ -1,3 +1,8 @@
+// .information {
+//   height: 100%;
+//   display: flex;
+//   width: 100%;
+// }
 .center-logo {
     display: block;
     margin-left: auto;
@@ -7,8 +12,11 @@
 
   .center-text {
     display: block;
+    padding: 10px;
+    color: navy;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 60%;
+    font-family: inherit;
   }

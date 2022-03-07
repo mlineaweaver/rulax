@@ -1,4 +1,4 @@
-import { CamperChargeComponent } from './registration/components/camper-details/camper-details.component';
+import {  CamperInfoComponent } from './registration/components/camper-details/camper-details.component';
 import { InformationComponent } from './home/components/information/information.component';
 import { AppRoutingModule } from './../../app-routing.module';
 import { HomeComponent } from './home/home.component';
@@ -21,7 +21,7 @@ import { RegistrationComponent } from './registration/registration.component';
     InformationComponent,
     StaffComponent,
     PlayerComponent,
-    CamperChargeComponent
+    CamperInfoComponent
   ],
   imports: [
     BrowserModule, AppRoutingModule, HttpClientModule, ReactiveFormsModule, FormsModule
