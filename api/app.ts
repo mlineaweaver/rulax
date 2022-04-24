@@ -15,14 +15,14 @@ const PORT = process.env.PORT || 4000;
 
 // mongoose instance connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://127.0.0.1:27017/lax');
-const db = mongoose.connection;
+// mongoose.connect('mongodb://127.0.0.1:27017/lax');
+// const db = mongoose.connection;
 
-db.on('error', console.error.bind(console, 'connection error:'));
+// db.on('error', console.error.bind(console, 'connection error:'));
 
-db.once('open', () => {
-  console.log('Connection Successful!');
-});
+// db.once('open', () => {
+  // console.log('Connection Successful!');
+// });
 
 // const PlayerSchema = new Schema<Player>({
 //     headshotUrl: {type: String}, 
@@ -35,9 +35,6 @@ db.once('open', () => {
 // //const PlayerSchema = new mongoose.Schema({headshotUrl: String, name: String, hometown: String, gradYear: String, position: String, number: String});
 // const DBPlayer: Model<Player> = mongoose.model('players',PlayerSchema);
 // const p: Array<Player> = DBPlayer.find({}).limit(1);
-// console.log('josh');
-// console.log(p);
-// console.log('yeet');
 
 
 app.use(logger('dev'))
